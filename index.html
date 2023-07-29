@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<title>APLICACIÓN WEB DE DJ CON AI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Combo&family=Comforter&family=Cookie&family=Creepster&family=Dancing+Script&family=DynaPuff&family=Indie+Flower&family=Lobster&family=Mynerve&family=Orbitron&family=Righteous&family=Rubik+Glitch&family=Rubik+Spray+Paint&family=Rubik+Vinyl&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=Varela+Round&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body background="Fondo.jpg">
+<center>
+  	<h3 class="btn btn-lg heading">APLICACIÓN WEB DE DJ CON AI
+	    <br>
+	    <span class="nota">NOTA: Mueve la muñeca de tu mano izquierda hacia arriba y hacia abajo para subir o bajar el volumen. 
+        Mueve la muñeca de tu mano derecha <br> hacia arriba y hacia abajo para aumentar o disminuir la velocidad de la música.</span>
+  	</h3>
+	<br><br>
+
+  <div class="div_speed">
+    <img src="disk.gif" class="div_speed_img">
+    <br>
+    <h3 class="btn btn-lg" id="speed">Velocidad</h3>
+  </div>
+
+  <div class="div_volumen">
+    <img src="disk.gif" class="div_volumen_img">
+    <br>
+    <h3 class="btn btn-lg" id="volumen">Volumen</h3>
+  </div>
+
+  <button onclick="play()" class="btn btn-lg play_button">Play music</button>
+  <button onclick="stop()" class="btn btn-lg stop_button">Stop music</button>
+  <br><br>
+
+  <div class="div_prev">
+    <img onclick="prev()" src="back.png" width="100px;" height="100px;">
+  </div>
+
+  <div class="div_next">
+    <img onclick="next()" src="next.png" width="100px;" height="100px;">
+  </div>
+
+   
+
+</center>
+
+  
+<script src="main.js"></script>
+</body>
+</html>

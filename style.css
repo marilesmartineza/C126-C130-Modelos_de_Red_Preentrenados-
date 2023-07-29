@@ -1,0 +1,79 @@
+body {
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.heading {
+    font-size: 23px;
+    background-color: #2542ab;
+    font-family: 'Rubik Glitch', cursive;
+    width: 95%;
+    color: white;
+}
+
+.nota {
+    font-size: 15px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_volumen {
+    float: right;
+}
+
+.div_speed_img, .div_volumen_img {  
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed, #volumen {
+    font-size: 20px;
+    color: white;
+    margin: 15px;
+}
+
+#speed {
+    background-color: #c90076;
+}
+
+#volumen {
+    background-color: #6a329f;
+}
+.play_button, .stop_button {
+    font-size: 15px;
+    margin-top: -10px;
+    color: white;
+}
+
+canvas{
+    margin-top: 100px;
+    border: 7px solid #930271;
+    border-radius: 7px;
+}
+
+.play_button {
+    background-color: #6a329f ;
+}
+
+.stop_button {
+    background-color:  #c90076;
+    margin-left: 20px;
+}
+
+.div_prev, .div_next {
+    margin-top: 150px;
+}
+
+.div_prev{
+    float:left;
+}
+
+.div_next{
+    float:right;
+}
+
+
